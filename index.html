@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Заметки</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icons/main.png">
+  <link rel="manifest" href="manifest.json"></head>
+<body>
+  <header>
+    <h1>Мои заметки</h1>
+    <div id="offline-status">Офлайн-режим</div>
+  </header>
+
+  <main>
+    <div class="note-form">
+        <textarea id="note-input" placeholder="Введите текст заметки"></textarea>
+        <button id="add-note">Добавить</button>
+      </div>
+      
+      <ul id="notes-list"></ul>
+
+    <ul id="notes-list"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
